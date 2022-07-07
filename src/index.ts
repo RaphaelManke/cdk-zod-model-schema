@@ -1,5 +1,1 @@
-export class Hello {
-  public sayHello() {
-    return 'hello, world!';
-  }
-}
+export { JsonSchemaModel, JsonSchemaModelProps } from './JsonSchemaModel';

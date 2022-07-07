@@ -110,6 +110,14 @@
       "type": "build"
     },
     {
+      "name": "zod",
+      "type": "build"
+    },
+    {
+      "name": "zod-to-json-schema",
+      "type": "build"
+    },
+    {
       "name": "aws-cdk-lib",
       "version": "^2.1.0",
       "type": "peer"

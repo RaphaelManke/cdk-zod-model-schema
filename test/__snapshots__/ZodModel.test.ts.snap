@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ZodModel should synth 1`] = `
+Object {
+  "testmodel": Object {
+    "Properties": Object {
+      "ContentType": "application/json",
+      "Name": "test-model",
+      "RestApiId": Object {
+        "Ref": "testapiD6451F70",
+      },
+      "Schema": Object {
+        "$ref": "#/definitions/test-model",
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "definitions": Object {
+          "test-model": Object {
+            "additionalProperties": false,
+            "properties": Object {
+              "foo": Object {
+                "type": "string",
+              },
+            },
+            "required": Array [
+              "foo",
+            ],
+            "type": "object",
+          },
+        },
+      },
+    },
+    "Type": "AWS::ApiGateway::Model",
+  },
+}
+`;

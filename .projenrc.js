@@ -14,9 +14,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
     },
   },
 
-  // deps: [],                /* Runtime dependencies of this module. */
+  /* Runtime dependencies of this module. */
+  //deps: ['zod', 'zod-to-json-schema'],
+  devDeps: ['zod', 'zod-to-json-schema'],
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
   // packageName: undefined,  /* The "name" in package.json. */
+  // bundledDeps: ['zod', 'zod-to-json-schema'],
 });
 project.synth();
